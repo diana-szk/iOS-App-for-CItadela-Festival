@@ -3,27 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFB93B592CE672C4B0A8FE10 /* Pods_CitadelaFestival.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE6891FF4A8934DC8CAB29F /* Pods_CitadelaFestival.framework */; };
+		BC0AB8762487AB3D0008F38C /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0AB8752487AB3D0008F38C /* ArtistViewController.swift */; };
+		BC0AB8782487AD500008F38C /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0AB8772487AD500008F38C /* ArtistTableViewCell.swift */; };
+		BC0B813724851D1400B24A8F /* StagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B813624851D1400B24A8F /* StagesViewController.swift */; };
+		BC0B813B24851DF000B24A8F /* StagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B813A24851DF000B24A8F /* StagesTableViewCell.swift */; };
+		BC0B81A72486812D00B24A8F /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B81A62486812D00B24A8F /* FoodViewController.swift */; };
+		BC0B81A9248681C500B24A8F /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B81A8248681C500B24A8F /* FoodTableViewCell.swift */; };
+		BC0B81AB2486938800B24A8F /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B81AA2486938700B24A8F /* TicketsViewController.swift */; };
+		BC0B81AD248693E100B24A8F /* TicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B81AC248693E100B24A8F /* TicketsTableViewCell.swift */; };
+		BC0D6DA724922DC100353CEC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D6DA624922DC100353CEC /* ChatViewController.swift */; };
+		BC0D6DA924923D0B00353CEC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D6DA824923D0B00353CEC /* Message.swift */; };
+		BC0D6DAC249241CF00353CEC /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D6DAA249241CF00353CEC /* MessageTableViewCell.swift */; };
+		BC0D6DAD249241CF00353CEC /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0D6DAB249241CF00353CEC /* MessageTableViewCell.xib */; };
+		BC0D6DAF2492489200353CEC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D6DAE2492489100353CEC /* Constants.swift */; };
+		BC0D6DB22492719B00353CEC /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BC0D6DB12492719B00353CEC /* IQKeyboardManagerSwift */; };
 		BC2AFF32247BC5F100FD8FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2AFF31247BC5F100FD8FF9 /* AppDelegate.swift */; };
 		BC2AFF34247BC5F100FD8FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2AFF33247BC5F100FD8FF9 /* SceneDelegate.swift */; };
 		BC2AFF36247BC5F100FD8FF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2AFF35247BC5F100FD8FF9 /* ViewController.swift */; };
 		BC2AFF39247BC5F100FD8FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2AFF37247BC5F100FD8FF9 /* Main.storyboard */; };
-		BC2AFF3B247BC5F300FD8FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2AFF3A247BC5F300FD8FF9 /* Assets.xcassets */; };
 		BC2AFF3E247BC5F300FD8FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2AFF3C247BC5F300FD8FF9 /* LaunchScreen.storyboard */; };
+		BC2AFF46247BC63100FD8FF9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2AFF45247BC63100FD8FF9 /* SignUpViewController.swift */; };
+		BC2AFF48247BC64200FD8FF9 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2AFF47247BC64200FD8FF9 /* LoginController.swift */; };
+		BC2AFF4A247BC65000FD8FF9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2AFF49247BC65000FD8FF9 /* HomeViewController.swift */; };
+		BC2AFF4D247BCE7E00FD8FF9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2AFF4C247BCE7E00FD8FF9 /* Utilities.swift */; };
+		BC2AFF50247BD39F00FD8FF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC2AFF4F247BD39F00FD8FF9 /* GoogleService-Info.plist */; };
+		BCA20639249B86830017F75B /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA20638249B86830017F75B /* launch.png */; };
+		BCA6BE40247E7EE300F32D7A /* first.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BCA6BE3F247E7EE300F32D7A /* first.mp4 */; };
+		BCA94F882481ADC700A73239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA94F872481ADC700A73239 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33FAFD579C1BFE2DFAC9B189 /* Pods-CitadelaFestival.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitadelaFestival.debug.xcconfig"; path = "Target Support Files/Pods-CitadelaFestival/Pods-CitadelaFestival.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0CEE8A3CDE5FAC0F985A8B /* Pods-CitadelaFestival.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitadelaFestival.release.xcconfig"; path = "Target Support Files/Pods-CitadelaFestival/Pods-CitadelaFestival.release.xcconfig"; sourceTree = "<group>"; };
+		BC0AB8752487AB3D0008F38C /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		BC0AB8772487AD500008F38C /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		BC0B813624851D1400B24A8F /* StagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagesViewController.swift; sourceTree = "<group>"; };
+		BC0B813A24851DF000B24A8F /* StagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagesTableViewCell.swift; sourceTree = "<group>"; };
+		BC0B81A62486812D00B24A8F /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		BC0B81A8248681C500B24A8F /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		BC0B81AA2486938700B24A8F /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		BC0B81AC248693E100B24A8F /* TicketsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableViewCell.swift; sourceTree = "<group>"; };
+		BC0D6DA624922DC100353CEC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BC0D6DA824923D0B00353CEC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		BC0D6DAA249241CF00353CEC /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		BC0D6DAB249241CF00353CEC /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		BC0D6DAE2492489100353CEC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = /Users/mayana/Desktop/CitadelaFestival/CitadelaFestival/Constants.swift; sourceTree = "<absolute>"; };
 		BC2AFF2E247BC5F100FD8FF9 /* CitadelaFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitadelaFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2AFF31247BC5F100FD8FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC2AFF33247BC5F100FD8FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BC2AFF35247BC5F100FD8FF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC2AFF38247BC5F100FD8FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC2AFF3A247BC5F300FD8FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC2AFF3D247BC5F300FD8FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC2AFF3F247BC5F300FD8FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2AFF45247BC63100FD8FF9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BC2AFF47247BC64200FD8FF9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		BC2AFF49247BC65000FD8FF9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BC2AFF4C247BCE7E00FD8FF9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		BC2AFF4F247BD39F00FD8FF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCA20638249B86830017F75B /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = ../../../Downloads/launch.png; sourceTree = "<group>"; };
+		BCA6BE3F247E7EE300F32D7A /* first.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = first.mp4; sourceTree = "<group>"; };
+		BCA94F872481ADC700A73239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE6891FF4A8934DC8CAB29F /* Pods_CitadelaFestival.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitadelaFestival.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +76,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB93B592CE672C4B0A8FE10 /* Pods_CitadelaFestival.framework in Frameworks */,
+				BC0D6DB22492719B00353CEC /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BF2EE9BDDF1218C46ACF181 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33FAFD579C1BFE2DFAC9B189 /* Pods-CitadelaFestival.debug.xcconfig */,
+				5A0CEE8A3CDE5FAC0F985A8B /* Pods-CitadelaFestival.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC0B815C248593D000B24A8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B813A24851DF000B24A8F /* StagesTableViewCell.swift */,
+				BC0B81A8248681C500B24A8F /* FoodTableViewCell.swift */,
+				BC0B81AC248693E100B24A8F /* TicketsTableViewCell.swift */,
+				BC0AB8772487AD500008F38C /* ArtistTableViewCell.swift */,
+				BC2AFF37247BC5F100FD8FF9 /* Main.storyboard */,
+				BC0D6DAA249241CF00353CEC /* MessageTableViewCell.swift */,
+				BC0D6DAB249241CF00353CEC /* MessageTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BC2AFF25247BC5F100FD8FF9 = {
 			isa = PBXGroup;
 			children = (
 				BC2AFF30247BC5F100FD8FF9 /* CitadelaFestival */,
 				BC2AFF2F247BC5F100FD8FF9 /* Products */,
+				4BF2EE9BDDF1218C46ACF181 /* Pods */,
+				EE2617D2B494965CE7CCED3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +128,61 @@
 		BC2AFF30247BC5F100FD8FF9 /* CitadelaFestival */ = {
 			isa = PBXGroup;
 			children = (
+				BCA2787A247BECF600586C8C /* Media */,
 				BC2AFF31247BC5F100FD8FF9 /* AppDelegate.swift */,
 				BC2AFF33247BC5F100FD8FF9 /* SceneDelegate.swift */,
-				BC2AFF35247BC5F100FD8FF9 /* ViewController.swift */,
-				BC2AFF37247BC5F100FD8FF9 /* Main.storyboard */,
-				BC2AFF3A247BC5F300FD8FF9 /* Assets.xcassets */,
+				BC2AFF4E247BCE8400FD8FF9 /* Model */,
+				BC0B815C248593D000B24A8F /* View */,
+				BC2AFF4B247BC65E00FD8FF9 /* Controllers */,
+				BCA94F872481ADC700A73239 /* Assets.xcassets */,
+				BCA20638249B86830017F75B /* launch.png */,
 				BC2AFF3C247BC5F300FD8FF9 /* LaunchScreen.storyboard */,
 				BC2AFF3F247BC5F300FD8FF9 /* Info.plist */,
+				BC2AFF4F247BD39F00FD8FF9 /* GoogleService-Info.plist */,
 			);
 			path = CitadelaFestival;
+			sourceTree = "<group>";
+		};
+		BC2AFF4B247BC65E00FD8FF9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC2AFF35247BC5F100FD8FF9 /* ViewController.swift */,
+				BC2AFF45247BC63100FD8FF9 /* SignUpViewController.swift */,
+				BC2AFF47247BC64200FD8FF9 /* LoginController.swift */,
+				BC2AFF49247BC65000FD8FF9 /* HomeViewController.swift */,
+				BC0AB8752487AB3D0008F38C /* ArtistViewController.swift */,
+				BC0B813624851D1400B24A8F /* StagesViewController.swift */,
+				BC0B81A62486812D00B24A8F /* FoodViewController.swift */,
+				BC0B81AA2486938700B24A8F /* TicketsViewController.swift */,
+				BC0D6DA624922DC100353CEC /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC2AFF4E247BCE8400FD8FF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC2AFF4C247BCE7E00FD8FF9 /* Utilities.swift */,
+				BC0D6DA824923D0B00353CEC /* Message.swift */,
+				BC0D6DAE2492489100353CEC /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCA2787A247BECF600586C8C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6BE3F247E7EE300F32D7A /* first.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		EE2617D2B494965CE7CCED3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDE6891FF4A8934DC8CAB29F /* Pods_CitadelaFestival.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +192,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC2AFF42247BC5F300FD8FF9 /* Build configuration list for PBXNativeTarget "CitadelaFestival" */;
 			buildPhases = (
+				20F6227B2F0D0720A320994F /* [CP] Check Pods Manifest.lock */,
 				BC2AFF2A247BC5F100FD8FF9 /* Sources */,
 				BC2AFF2B247BC5F100FD8FF9 /* Frameworks */,
 				BC2AFF2C247BC5F100FD8FF9 /* Resources */,
+				48D2E146B6173E578C7B148A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CitadelaFestival;
+			packageProductDependencies = (
+				BC0D6DB12492719B00353CEC /* IQKeyboardManagerSwift */,
+			);
 			productName = CitadelaFestival;
 			productReference = BC2AFF2E247BC5F100FD8FF9 /* CitadelaFestival.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +234,9 @@
 				Base,
 			);
 			mainGroup = BC2AFF25247BC5F100FD8FF9;
+			packageReferences = (
+				BC0D6DB02492719B00353CEC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = BC2AFF2F247BC5F100FD8FF9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,22 +251,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA20639249B86830017F75B /* launch.png in Resources */,
+				BCA6BE40247E7EE300F32D7A /* first.mp4 in Resources */,
+				BC0D6DAD249241CF00353CEC /* MessageTableViewCell.xib in Resources */,
 				BC2AFF3E247BC5F300FD8FF9 /* LaunchScreen.storyboard in Resources */,
-				BC2AFF3B247BC5F300FD8FF9 /* Assets.xcassets in Resources */,
+				BC2AFF50247BD39F00FD8FF9 /* GoogleService-Info.plist in Resources */,
 				BC2AFF39247BC5F100FD8FF9 /* Main.storyboard in Resources */,
+				BCA94F882481ADC700A73239 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20F6227B2F0D0720A320994F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CitadelaFestival-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D2E146B6173E578C7B148A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CitadelaFestival/Pods-CitadelaFestival-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CitadelaFestival/Pods-CitadelaFestival-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CitadelaFestival/Pods-CitadelaFestival-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC2AFF2A247BC5F100FD8FF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0B813B24851DF000B24A8F /* StagesTableViewCell.swift in Sources */,
+				BC0D6DAF2492489200353CEC /* Constants.swift in Sources */,
+				BC0B81A72486812D00B24A8F /* FoodViewController.swift in Sources */,
 				BC2AFF36247BC5F100FD8FF9 /* ViewController.swift in Sources */,
+				BC0D6DA924923D0B00353CEC /* Message.swift in Sources */,
+				BC0D6DAC249241CF00353CEC /* MessageTableViewCell.swift in Sources */,
+				BC0B81AB2486938800B24A8F /* TicketsViewController.swift in Sources */,
 				BC2AFF32247BC5F100FD8FF9 /* AppDelegate.swift in Sources */,
+				BC2AFF4D247BCE7E00FD8FF9 /* Utilities.swift in Sources */,
+				BC2AFF46247BC63100FD8FF9 /* SignUpViewController.swift in Sources */,
 				BC2AFF34247BC5F100FD8FF9 /* SceneDelegate.swift in Sources */,
+				BC0B81AD248693E100B24A8F /* TicketsTableViewCell.swift in Sources */,
+				BC0B813724851D1400B24A8F /* StagesViewController.swift in Sources */,
+				BC0AB8762487AB3D0008F38C /* ArtistViewController.swift in Sources */,
+				BC0D6DA724922DC100353CEC /* ChatViewController.swift in Sources */,
+				BC2AFF48247BC64200FD8FF9 /* LoginController.swift in Sources */,
+				BC2AFF4A247BC65000FD8FF9 /* HomeViewController.swift in Sources */,
+				BC0B81A9248681C500B24A8F /* FoodTableViewCell.swift in Sources */,
+				BC0AB8782487AD500008F38C /* ArtistTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +470,7 @@
 		};
 		BC2AFF43247BC5F300FD8FF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FAFD579C1BFE2DFAC9B189 /* Pods-CitadelaFestival.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,6 +481,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianaszekely.CitadelaFestival;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +489,7 @@
 		};
 		BC2AFF44247BC5F300FD8FF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0CEE8A3CDE5FAC0F985A8B /* Pods-CitadelaFestival.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +500,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianaszekely.CitadelaFestival;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,6 +528,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC0D6DB02492719B00353CEC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC0D6DB12492719B00353CEC /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC0D6DB02492719B00353CEC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BC2AFF26247BC5F100FD8FF9 /* Project object */;
 }
